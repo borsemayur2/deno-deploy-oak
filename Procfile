@@ -1,1 +1,1 @@
-web: deno run --allow-net --allow-env mod.js
+web: deno run --allow-net=${PORT} --allow-env mod.js --port=$PORT}
