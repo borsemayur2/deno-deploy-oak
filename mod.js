@@ -7,6 +7,9 @@ router.get("/", (ctx) => {
 router.get("/oak", (ctx) => {
   ctx.response.body = "Hello Oak!";
 });
+router.get("/docker", (ctx) => {
+  ctx.response.body = "Hello Docker!";
+});
 
 const app = new Application();
 
