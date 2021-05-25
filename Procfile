@@ -1,1 +1,1 @@
-web: vr prod
+web: deno run --allow-net --allow-env mod.js
