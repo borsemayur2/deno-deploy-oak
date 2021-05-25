@@ -1,0 +1,12 @@
+allow:
+  - net
+  - env
+imap: import_map.json
+
+scripts:
+  dev:
+    cmd: mod.js
+    env:
+      PORT: 3000
+  prod:
+    cmd: mod.js

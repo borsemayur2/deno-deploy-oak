@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "oak": "https://deno.land/x/oak@v7.5.0/mod.ts"
+  },
+  "hash": {
+    "oak": "ee8df50bae33bba1c43cee6c7bc1bfb49776a3fb40d5247a97b5e8924b46a31c"
+  }
+}
